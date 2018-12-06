@@ -45,12 +45,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eph-5b-VLb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1479.2" y="31.934032983508249"/>
+            <point key="canvasLocation" x="-1756" y="33"/>
         </scene>
         <!--BlockViewController-->
         <scene sceneID="X7o-Lq-0rZ">
             <objects>
-                <viewController title="BlockViewController" id="96t-0S-unQ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BlockViewController" title="BlockViewController" id="96t-0S-unQ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nKt-6f-BVK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u3e-FT-LuB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-858.39999999999998" y="31.934032983508249"/>
+            <point key="canvasLocation" x="-994" y="33"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="QvR-S2-Dsh">
@@ -129,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h7i-4r-XRw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-225" y="33"/>
+            <point key="canvasLocation" x="-319" y="35"/>
         </scene>
         <!--BinaryViewController-->
         <scene sceneID="Zow-Nf-cAk">
@@ -167,12 +167,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xit-6d-2g9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="402" y="34"/>
+            <point key="canvasLocation" x="353" y="35"/>
         </scene>
-        <!--View Controller-->
+        <!--LogicalGateViewController-->
         <scene sceneID="gGp-V9-WqZ">
             <objects>
-                <viewController storyboardIdentifier="LogicalGateViewController" id="wWD-e1-RuU" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LogicalGateViewController" title="LogicalGateViewController" id="wWD-e1-RuU" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="94A-jR-O65">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
