@@ -7,20 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB95899B21B9AB8100002081 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95899A21B9AB8100002081 /* AbstractionViewController.swift */; };
 		DB99243021B709B200A26887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB99242F21B709B200A26887 /* AppDelegate.swift */; };
-		DB99243221B709B200A26887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB99243121B709B200A26887 /* ViewController.swift */; };
 		DB99243521B709B200A26887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB99243321B709B200A26887 /* Main.storyboard */; };
 		DB99243721B709B600A26887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB99243621B709B600A26887 /* Assets.xcassets */; };
-		DB99243A21B709B600A26887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB99243821B709B600A26887 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB95899A21B9AB8100002081 /* AbstractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
 		DB99242C21B709B200A26887 /* Abstraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Abstraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB99242F21B709B200A26887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB99243121B709B200A26887 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB99243421B709B200A26887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB99243621B709B600A26887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DB99243921B709B600A26887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB99243B21B709B600A26887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +70,6 @@
 		DB99244221B709C400A26887 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DB99243821B709B600A26887 /* LaunchScreen.storyboard */,
 				DB99243321B709B200A26887 /* Main.storyboard */,
 			);
 			path = View;
@@ -81,7 +78,7 @@
 		DB99244321B709CD00A26887 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DB99243121B709B200A26887 /* ViewController.swift */,
+				DB95899A21B9AB8100002081 /* AbstractionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -154,7 +151,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB99243A21B709B600A26887 /* LaunchScreen.storyboard in Resources */,
 				DB99243721B709B600A26887 /* Assets.xcassets in Resources */,
 				DB99243521B709B200A26887 /* Main.storyboard in Resources */,
 			);
@@ -167,8 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB99243221B709B200A26887 /* ViewController.swift in Sources */,
 				DB99243021B709B200A26887 /* AppDelegate.swift in Sources */,
+				DB95899B21B9AB8100002081 /* AbstractionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,14 +177,6 @@
 				DB99243421B709B200A26887 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DB99243821B709B600A26887 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB99243921B709B600A26887 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -315,7 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Abstraction/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Abstraction/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
