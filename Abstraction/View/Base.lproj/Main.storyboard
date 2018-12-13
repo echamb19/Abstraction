@@ -85,10 +85,10 @@
             </objects>
             <point key="canvasLocation" x="-994" y="33"/>
         </scene>
-        <!--Page View Controller-->
+        <!--Abstraction View Controller-->
         <scene sceneID="QvR-S2-Dsh">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="BCQ-e5-YsU" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="BCQ-e5-YsU" customClass="AbstractionViewController" customModule="Abstraction" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H1K-k2-j7P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-228" y="-644"/>
